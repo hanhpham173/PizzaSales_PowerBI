@@ -1,145 +1,135 @@
-🍕 Pizza Sales Dashboard - Power BI Project
-📊 Overview
-This Power BI project showcases an interactive Pizza Sales Dashboard designed to track, analyze, and visualize key metrics in a pizza retail business. The dashboard enables users to monitor sales performance, identify top-selling products, evaluate customer preferences, and make data-driven business decisions.
+# 🍕 Pizza Sales Dashboard – Power BI Project
 
-🎯 Project Objective
-To build a dynamic and user-friendly Power BI dashboard that presents real-time insights into pizza sales. The goal is to support strategic decision-making by highlighting sales trends, top-performing items, and customer behavior across different time periods and product categories.
+## 📊 Overview
+This Power BI project showcases an interactive **Pizza Sales Dashboard** designed to monitor and analyze key metrics in a pizza retail business. The dashboard enables users to:
 
-🔄 Process
-1. Data Preparation
-Imported raw transaction data into Power BI
+- Track sales performance  
+- Identify top-selling pizzas and peak sales times  
+- Understand customer preferences  
+- Support data-driven decisions for growth and optimization
 
-Cleaned and structured data using Power Query Editor
+---
 
-Created relationships across tables (Date, Pizza, Orders, and Customers)
+## 🎯 Project Objective
+To build a dynamic and user-friendly Power BI dashboard that delivers actionable insights into pizza sales, helping businesses make informed decisions, optimize operations, and enhance customer satisfaction.
 
-Developed custom columns and DAX measures for KPI tracking and slicing
+---
 
-2. KPI Calculation
-Utilized DAX to compute:
+## 🔄 Process
 
-Total Revenue
+### 1. Data Preparation
+- Imported raw transactional data into Power BI  
+- Cleaned and transformed data using **Power Query Editor**  
+- Built relationships across multiple tables  
+- Created custom columns and DAX measures
 
-Total Orders
+### 2. KPI Calculation (DAX)
+- Total Revenue  
+- Total Orders  
+- Average Order Value (AOV)  
+- Top-Selling Pizzas and Categories  
+- YTD / MTD Metrics  
+- YoY / WoW Growth Comparisons
 
-Average Order Value (AOV)
+### 3. Visualization Creation
+- KPI Cards  
+- Bar & Column Charts  
+- Pie & Donut Charts  
+- Time-Based Trend Lines  
+- Heatmaps (hour vs. day performance)  
+- Detailed Transaction Table
 
-Top-Selling Pizza Types & Categories
+### 4. Dashboard Design
+- Clean, user-friendly layout  
+- Interactive slicers (Date, Category, Size, Order Type)  
+- Filter pane and custom tooltips for interactivity
 
-Time-Based Metrics (YTD, MTD, Daily Trends)
+---
 
-Sales Growth & Comparisons (YoY, WoW)
+## 🗃️ Data Modeling
 
-3. Visualization Creation
-Included a variety of interactive visuals such as:
+### Tables Included
+- **Orders**: Order ID, Date, Pizza ID, Quantity, Total Price  
+- **Pizza**: Pizza ID, Name, Category, Size, Unit Price  
+- **Date**: Calendar table for time intelligence  
+- *(Optional)* **Customers**: For segmentation and personalization
 
-KPI Cards
+---
 
-Bar & Column Charts
+## 📈 Dashboard Highlights
 
-Donut & Pie Charts
+### 🔢 Key Metrics
+- **Total Revenue**: `$834.75K`  
+- **Total Orders**: `21,350`  
+- **Average Order Value**: `$39.12`
 
-Heat Maps (for Time & Day)
+### 📊 Top Performers
+- **Top Category**: Classic  
+- **Top Pizza**: The Classic Deluxe  
+- **Top Size**: Large (L)
 
-Trend Lines for Daily/Monthly Sales
+### 📅 Time Analysis
+- **Monthly Trends**: Seasonal patterns observed  
+- **Weekly Performance**: Sales peak on Fridays and weekends  
+- **Hourly Heatmap**: Lunch (12–2 PM) and dinner (6–9 PM) are busiest
 
-Detailed Transaction Table
+---
 
-4. Dashboard Design
-Organized visuals into a clean, visually balanced layout
+## 💡 Key Insights
 
-Added slicers for Date, Pizza Category, Pizza Size, and Order Type
+- Classic pizzas dominate revenue share  
+- Large pizzas are the most preferred size  
+- Sales peak during lunch and evening hours  
+- Weekends outperform weekdays significantly  
+- A small group of products accounts for most of the revenue (Pareto trend)
 
-Included interactive tooltips and filter panes for a seamless user experience
+---
 
-🗃️ Data Modeling
-Structured the data model with the following key tables:
+## 📌 Business Recommendations
 
-Orders: Order ID, Date, Pizza ID, Quantity, Total Price
+1. **Promote Best Sellers**  
+   Run targeted campaigns on top pizzas like *The Classic Deluxe*.
 
-Pizza: Pizza ID, Name, Category (Classic, Veggie, etc.), Size (S/M/L), Price
+2. **Boost AOV (Average Order Value)**  
+   Offer upselling combos and size upgrades during checkout.
 
-Date: Full calendar for time-based analysis
+3. **Optimize Staffing & Inventory**  
+   Allocate more staff and stock during high-traffic hours.
 
-Customer (optional): Used for segmentation and retention analysis
+4. **Drive Off-Peak Sales**  
+   Launch midweek discounts or loyalty rewards for Mondays–Wednesdays.
 
-📈 Dashboard Highlights
-🔢 Sales Metrics
-Total Revenue: $834.75K
+5. **Menu Optimization**  
+   Phase out underperforming pizzas to streamline the menu.
 
-Total Orders: 21,350
+6. **Segmented Marketing**  
+   Use order history to deliver personalized promotions (e.g., Veggie lovers).
 
-Average Order Value: $39.12
+7. **Bundle Strategy**  
+   Combine popular items with slower-moving products.
 
-📊 Best Performers
-Top Category: Classic
+8. **Seasonal Campaigns**  
+   Roll out limited-time offers during holidays or special events.
 
-Top Pizza: “The Classic Deluxe”
+---
 
-Top Size: Large (L)
+## ✅ Conclusion
+This project demonstrates core skills in:
 
-📅 Time Analysis
-Monthly Revenue Trends: Seasonal patterns observed
+- ✅ Data Preparation & Modeling  
+- ✅ KPI Calculation using DAX  
+- ✅ Dashboard UI/UX Design  
+- ✅ Business Intelligence Analysis
 
-Weekday Performance: Peak on Fridays and weekends
+The final product delivers a highly interactive and visually engaging dashboard that helps pizza retailers enhance sales, improve efficiency, and make smarter decisions.
 
-Hourly Heatmap: Lunch (12–2 PM) and dinner (6–9 PM) are most active
+---
 
-💡 Key Insights
-Classic pizzas and large sizes are dominant in sales
+## 🛠️ Tools Used
+- Power BI Desktop  
+- Power Query Editor  
+- DAX (Data Analysis Expressions)  
+- Sample Pizza Sales Dataset (CSV / SQL)
 
-Sales spike during lunch and dinner hours, especially on weekends
-
-A small set of pizzas contribute a large share of the revenue (Pareto trend)
-
-Average order value (AOV) remains steady but could be improved through upselling
-
-Specific times of the week (e.g., Monday mornings) show consistently low performance
-
-📌 Business Recommendations
-Promote Best Sellers
-Use targeted ads and combo deals to promote top-performing pizzas like “The Classic Deluxe” and other Classic category items.
-
-Boost Average Order Value
-Introduce limited-time upsell combos (e.g., upgrade to large size + drink/dessert) to increase AOV.
-
-Optimize Staffing & Inventory
-Align kitchen and delivery staffing with peak hours and days (e.g., Friday evenings, weekends). Prepare inventory ahead of peak periods.
-
-Drive Off-Peak Sales
-Offer weekday promotions or loyalty rewards to stimulate demand during typically slower times like Monday–Wednesday mornings.
-
-Menu Rationalization
-Analyze low-selling SKUs and consider revising or removing underperforming pizzas to streamline operations and reduce waste.
-
-Segmented Marketing
-Leverage order history (if available) to send personalized offers based on customer preferences, e.g., veggie lovers, large size buyers, etc.
-
-Bundle Strategy
-Combine popular pizzas with low-selling ones to increase visibility and clear slow-moving stock while maintaining perceived value.
-
-Seasonal Campaigns
-Create seasonal specials or LTOs (limited-time offers) aligned with high-traffic periods like holidays, sports events, or summer vacations.
-
-✅ Conclusion
-This Power BI project demonstrates practical skills in:
-
-Data Cleaning & Modeling
-
-DAX-Based Calculations
-
-Effective Dashboard Design
-
-Business Analysis in Retail Contexts
-
-The final dashboard delivers a comprehensive, interactive analytical platform to support managerial decisions in the food retail industry.
-
-🛠️ Tools Used
-Power BI Desktop
-
-Power Query Editor
-
-DAX (Data Analysis Expressions)
-
-Sample Pizza Sales Dataset (CSV format or structured database)
+---
 
