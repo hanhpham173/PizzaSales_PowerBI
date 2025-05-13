@@ -48,6 +48,8 @@ To build a dynamic and user-friendly Power BI dashboard that delivers actionable
 
 ## 🗃️ Data Modeling
 
+![Data Model Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/model.JPG)
+
 ### Tables Included
 - **Orders**: Order ID, Date, Pizza ID, Quantity, Total Price  
 - **Pizza**: Pizza ID, Name, Category, Size, Unit Price  
@@ -74,22 +76,52 @@ To build a dynamic and user-friendly Power BI dashboard that delivers actionable
 - **Hourly Heatmap**: Lunch (12–2 PM) and dinner (6–9 PM) are busiest
 
 ### 🧭 Dashboard Pages Overview
-The Power BI report includes the following dashboards:
 
-- **Overview Dashboard**  
-  Displays KPIs like Total Revenue, Orders, AOV, and category/size performance.
+The Power BI report consists of five key dashboard pages:
 
-- **Sales Trend Analysis**  
-  Line and bar charts showing sales trends by day, week, and month.
+1. **Sales Overview**
 
-- **Top Performers**  
-  Highlights best-selling pizzas by name, category, and size.
+![Dashboard Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/sc1.JPG)  
 
-- **Time & Day Heatmap**  
-  Reveals peak sales periods by hour and day of the week.
+   - Total Sales, Orders, and AOV summary
+   - Sales breakdown by hour range, weekday, month, and quarter
+   - Visual insights into customer order behaviors and peak periods
 
-- **Detailed Orders Table**  
-  A searchable, filterable table with order-level details.
+
+2. **Product Sales Overview**
+
+![Dashboard Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/sc2.JPG)
+
+   - Total sales distribution by Category (Classic, Chicken, Veggie, Supreme)
+   - Sales by Pizza Size (L, M, S, etc.)
+   - Highlights most popular pizza size, best seller, and top category
+
+
+3. **Product Performance**
+
+![Dashboard Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/sc3.JPG)
+
+   - Best and worst performing pizzas by revenue and quantity
+   - Pie charts highlighting quantity share of top and bottom pizzas
+   - Useful for product rationalization and inventory planning
+
+4. **Product Insights**
+
+![Dashboard Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/sc4.JPG)
+
+   - Sales trends by price across different categories
+   - Correlation between ingredients and sales performance
+   - Word cloud showing most frequently used and popular ingredients
+
+
+5. **Customer Insights**
+
+![Dashboard Screenshot](https://github.com/hanhpham173/PizzaSales_PowerBI/blob/5222375d99debd4003bcff3c8add4b81d171e559/sc5.JPG)
+
+   - Multi-item vs. Single-item order comparisons
+   - Avg. pizzas per order, time between orders, and customer frequency
+   - Weekly ordering patterns for both multi- and single-item orders
+     
 
 ---
 
