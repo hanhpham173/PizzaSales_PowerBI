@@ -73,6 +73,24 @@ To build a dynamic and user-friendly Power BI dashboard that delivers actionable
 - **Weekly Performance**: Sales peak on Fridays and weekends  
 - **Hourly Heatmap**: Lunch (12–2 PM) and dinner (6–9 PM) are busiest
 
+### 🧭 Dashboard Pages Overview
+The Power BI report includes the following dashboards:
+
+- **Overview Dashboard**  
+  Displays KPIs like Total Revenue, Orders, AOV, and category/size performance.
+
+- **Sales Trend Analysis**  
+  Line and bar charts showing sales trends by day, week, and month.
+
+- **Top Performers**  
+  Highlights best-selling pizzas by name, category, and size.
+
+- **Time & Day Heatmap**  
+  Reveals peak sales periods by hour and day of the week.
+
+- **Detailed Orders Table**  
+  A searchable, filterable table with order-level details.
+
 ---
 
 ## 💡 Key Insights
@@ -132,4 +150,3 @@ The final product delivers a highly interactive and visually engaging dashboard 
 - Sample Pizza Sales Dataset (CSV / SQL)
 
 ---
-
